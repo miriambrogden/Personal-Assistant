@@ -1,5 +1,4 @@
 Student Name: Miriam Snow
-Student Number: 0954174
 Date: December 2, 2017
 
 Description of the Assignment:
@@ -11,7 +10,7 @@ To run the TestMain.c program, type "make test" then execute the program by typi
 Type "make clean" to remove all files in the bin directory.
 
 Personalization:
-I didn't really make any modifications to the personalization of the rules. Rules read from the file have a default system rating and user rating of 0.5. When a rule is added by the user, the system rating is set to the same value as the user rating entered by the user. When rules are added or searched for, the keywords are made all lower case to make rules case insensitive. Learning rate is a constant value of 0.05 throughout the program. Feedback is given by calculating the importance of each word in the sentence (user rating + system rating) and outputting the sentence with the highest keyword importance.
+I didn't make any modifications to the personalization of the rules. Rules read from the file have a default system rating and user rating of 0.5. When a rule is added by the user, the system rating is set to the same value as the user rating entered by the user. When rules are added or searched for, the keywords are made all lower case to make rules case insensitive. Learning rate is a constant value of 0.05 throughout the program. Feedback is given by calculating the importance of each word in the sentence (user rating + system rating) and outputting the sentence with the highest keyword importance.
 
 Assumptions or limitations:
 File input must have a keyword on a line followed by a sentence on a new line. Keywords must only contain letters. User ratings must be a value between 0 and 1.
